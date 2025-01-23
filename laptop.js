@@ -26,8 +26,3 @@ console.log(laptopObject)
 laptopObject.brand = "Mac"
 console.log(laptopObject) 
 
-//Creating a Map
-const myMap = Map();
-
-myMap.set("name", "Saleh")
-myMap.set("age", 25)
