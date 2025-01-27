@@ -7,7 +7,10 @@ let laptopObject = {
     colour : "black",
     beii : 1000000,
     used : true,
-    currency : "USH"
+    currency : "USH",
+    getPrice : function(){
+        return `${this.currency} ${this.beii}`
+    }
     
 };
 console.log(laptopObject)
@@ -25,4 +28,9 @@ console.log(laptopObject)
 //updating the name of the laptop
 laptopObject.brand = "Mac"
 console.log(laptopObject) 
+
+//function price
+console.log(laptopObject.getPrice())
+
+
 
