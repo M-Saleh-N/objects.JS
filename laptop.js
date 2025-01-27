@@ -38,5 +38,9 @@ console.log(laptopObject.getPrice());
 //calling second function
 console.log(laptopObject.pointDetails())
 
+let {brand, processor, ram, colour} = laptopObject
+
+console.log(brand, processor, ram, colour)
+
 
 
