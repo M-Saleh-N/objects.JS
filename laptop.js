@@ -38,9 +38,24 @@ console.log(laptopObject.getPrice());
 //calling second function
 console.log(laptopObject.pointDetails())
 
+//destructuring
 let {brand, processor, ram, colour} = laptopObject
 
 console.log(brand, processor, ram, colour)
+
+// //optional property access
+// console.log(laptopObject?.price)
+
+//Enumerating objects properties
+const laptop = {
+    jina : "Acer",
+    price : 1000
+}
+
+console.log(Object.keys(laptop))
+console.log(Object.values(laptop))
+
+
 
 
 
