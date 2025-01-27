@@ -8,8 +8,11 @@ let laptopObject = {
     beii : 1000000,
     used : true,
     currency : "USH",
-    getPrice : function(){
+    getPrice : function (){
         return `${this.currency} ${this.beii}`
+    },
+    pointDetails : function (){
+        return `${this.brand} ${this.ram} ${this.colour} ${this.beii} ${this.currency}`
     }
     
 };
@@ -30,7 +33,10 @@ laptopObject.brand = "Mac"
 console.log(laptopObject) 
 
 //function price
-console.log(laptopObject.getPrice())
+console.log(laptopObject.getPrice());
+
+//calling second function
+console.log(laptopObject.pointDetails())
 
 
 
